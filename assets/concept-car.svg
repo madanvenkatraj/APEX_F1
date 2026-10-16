@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 530" role="img" aria-labelledby="title desc">
+<title id="title">APEX A26 concept formula racing car</title><desc id="desc">An original vector illustration of a fictional red, black and white formula racing car, viewed from above at an angle.</desc>
+<defs>
+  <linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff5a43"/><stop offset=".42" stop-color="#e62c23"/><stop offset="1" stop-color="#90190f"/></linearGradient>
+  <linearGradient id="carbon" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#25292a"/><stop offset=".5" stop-color="#080a0b"/><stop offset="1" stop-color="#454a4b"/></linearGradient>
+  <linearGradient id="tire" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#08090a"/><stop offset=".45" stop-color="#303333"/><stop offset="1" stop-color="#08090a"/></linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feGaussianBlur stdDeviation="15"/></filter>
+</defs>
+<ellipse cx="495" cy="276" rx="375" ry="142" fill="#000" opacity=".6" filter="url(#shadow)"/>
+<!-- tyres -->
+<g transform="translate(0 0) rotate(-9 500 260)">
+  <rect x="189" y="106" width="96" height="164" rx="29" fill="url(#tire)" stroke="#45494a" stroke-width="4"/>
+  <rect x="187" y="288" width="96" height="164" rx="29" fill="url(#tire)" stroke="#45494a" stroke-width="4"/>
+  <rect x="713" y="102" width="96" height="164" rx="29" fill="url(#tire)" stroke="#45494a" stroke-width="4"/>
+  <rect x="715" y="285" width="96" height="164" rx="29" fill="url(#tire)" stroke="#45494a" stroke-width="4"/>
+  <g stroke="#666b6c" stroke-width="2" opacity=".65"><path d="M204 128v120m14-127v134m14-134v134m14-132v130m14-120v110M202 309v120m14-127v134m14-134v134m14-132v130m14-120v110M728 124v120m14-127v134m14-134v134m14-132v130m14-120v110M730 306v120m14-127v134m14-134v134m14-132v130m14-120v110"/></g>
+  <!-- wings -->
+  <path d="M110 174 294 180 308 207 119 218Z" fill="#171a1b" stroke="#555" stroke-width="3"/>
+  <path d="M111 194 290 200 287 211 116 225Z" fill="#f1eee5"/>
+  <path d="M116 225 287 211 278 224 126 239Z" fill="#e62d24"/>
+  <path d="M690 176 881 166 884 207 696 218Z" fill="#151819" stroke="#555" stroke-width="3"/>
+  <path d="M699 192 876 184 876 197 699 208Z" fill="#f1eee5"/>
+  <path d="M699 208 876 197 871 210 705 223Z" fill="#e62d24"/>
+  <!-- central chassis -->
+  <path d="M293 170 365 145 432 108 535 105 604 144 693 173 672 302 618 358 550 398 446 397 373 353 317 306Z" fill="url(#carbon)" stroke="#56595a" stroke-width="4"/>
+  <path d="M365 145 432 108 535 105 604 144 562 196 408 198Z" fill="url(#body)"/>
+  <path d="M432 108 453 56 510 56 535 105 520 153 452 155Z" fill="#e73025" stroke="#7e180f" stroke-width="4"/>
+  <path d="M459 67h44l8 63h-62Z" fill="#141819"/>
+  <path d="M466 71h28l5 55h-37Z" fill="#667b83" opacity=".7"/>
+  <path d="M450 155 520 153 561 196 555 267 506 312 454 311 401 265 408 198Z" fill="url(#body)"/>
+  <path d="M408 198 455 211 454 311 401 265Z" fill="#a51e15"/>
+  <path d="M520 153 561 196 555 267 506 312 511 213Z" fill="#ff6245"/>
+  <path d="M455 211 511 213 506 312 454 311Z" fill="#f6f2e8"/>
+  <path d="M470 214 494 215 491 304 469 304Z" fill="#e72d24"/>
+  <!-- halo + cockpit -->
+  <path d="M435 174c5-40 23-58 42-58s37 18 42 58" fill="none" stroke="#080909" stroke-width="12" stroke-linecap="round"/>
+  <path d="M452 183 461 153 493 153 503 183 492 213 464 213Z" fill="#0b0e10" stroke="#757b7c" stroke-width="3"/>
+  <path d="M464 177 489 177" stroke="#aab0b0" stroke-width="2"/>
+  <!-- aero details -->
+  <path d="M337 194 408 198 401 265 337 251Z" fill="#222627"/>
+  <path d="M561 196 625 188 646 246 555 267Z" fill="#222627"/>
+  <path d="M331 252 401 265 446 311 402 332 348 292Z" fill="#f2efe7"/>
+  <path d="M555 267 646 246 629 295 555 334 506 312Z" fill="#f2efe7"/>
+  <path d="M354 273 406 286 437 316 397 310Z" fill="#e52f24"/>
+  <path d="M566 294 629 272 606 307 557 333Z" fill="#e52f24"/>
+  <path d="M365 353 445 375 550 376 618 353 600 385 550 415 448 414 392 387Z" fill="#101314" stroke="#555" stroke-width="3"/>
+  <path d="M399 370 449 387 550 388 597 370 577 395 546 405 451 405 420 394Z" fill="#e72f24"/>
+  <!-- APEX marks -->
+  <text x="475" y="260" font-family="Arial,sans-serif" font-size="20" font-weight="900" fill="#171a1a" text-anchor="middle" transform="rotate(-2 475 260)">APEX</text>
+  <text x="475" y="278" font-family="Arial,sans-serif" font-size="7" font-weight="700" letter-spacing="3" fill="#171a1a" text-anchor="middle">RACING CLUB</text>
+  <path d="M425 329 452 339 451 349 415 340Z" fill="#f0eee7"/><path d="M534 339 568 329 578 340 535 351Z" fill="#f0eee7"/>
+</g>
+</svg>
